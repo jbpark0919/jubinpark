@@ -1,4 +1,4 @@
 20203076
 Park jubin
-Kookmin Univ. SW
+Kookmin Univ. SW(CS)
 20010919
