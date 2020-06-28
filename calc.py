@@ -5,7 +5,7 @@ def application(environ, start_response):
     d = parse_qs(environ['QUERY_STRING'])
     first_num = d.get('first_num', [''])[0]
     second_num = d.get('second_num', [''])[0]
-    sum, mul = 0, 0
+    sum, mul = -1, -1
     if '' not in [first_num, second_num]:
         first_num, second_num = int(first_num), int(second_num)
         sum = first_num + second_num
